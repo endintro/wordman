@@ -1,0 +1,16 @@
+{
+  "name": "wordman",
+  "version": "1.0.0",
+  "description": "help yuehm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "jun",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.5.1",
+    "mammoth": "^1.4.7",
+    "word-extractor": "^0.3.0"
+  }
+}
