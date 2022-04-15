@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T06:31:33.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="gCWun9R_jxXD0DLQxl9h" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T08:02:35.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="RZiV26qHfOZXAgHsaBqL" version="17.4.0" type="github">
   <diagram id="2cpqpmV6zpEY5qy0ihQZ" name="Page-1">
     <mxGraphModel dx="1797" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="z7rDoQSXtA1vAERBChvZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z7rDoQSXtA1vAERBChvZ-8" target="z7rDoQSXtA1vAERBChvZ-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z7rDoQSXtA1vAERBChvZ-8" value="解析：&lt;br&gt;Grafana" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z7rDoQSXtA1vAERBChvZ-8" value="解析：&lt;br&gt;logstage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-10" value="1.下载频率（天）&lt;br&gt;2.独立的日志收集工程" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
@@ -57,7 +57,7 @@
         <mxCell id="z7rDoQSXtA1vAERBChvZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z7rDoQSXtA1vAERBChvZ-14" target="z7rDoQSXtA1vAERBChvZ-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z7rDoQSXtA1vAERBChvZ-14" value="记表：&lt;br&gt;内管数据中台hadoop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z7rDoQSXtA1vAERBChvZ-14" value="记表：&lt;br&gt;内管数据中台es" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-16" value="统计输出：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -89,10 +89,16 @@
         <mxCell id="z7rDoQSXtA1vAERBChvZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7rDoQSXtA1vAERBChvZ-30" target="z7rDoQSXtA1vAERBChvZ-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="z7rDoQSXtA1vAERBChvZ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7rDoQSXtA1vAERBChvZ-30" target="z7rDoQSXtA1vAERBChvZ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-30" value="解析：&lt;br&gt;Java应用解析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="440" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7rDoQSXtA1vAERBChvZ-32" target="z7rDoQSXtA1vAERBChvZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z7rDoQSXtA1vAERBChvZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7rDoQSXtA1vAERBChvZ-32" target="z7rDoQSXtA1vAERBChvZ-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-32" value="记表：&lt;br&gt;mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
@@ -108,7 +114,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-35" value="异步调用后台接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="800" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z7rDoQSXtA1vAERBChvZ-37">
           <mxGeometry relative="1" as="geometry">
@@ -121,6 +127,12 @@
         </mxCell>
         <mxCell id="z7rDoQSXtA1vAERBChvZ-37" value="记表：&lt;br&gt;实时mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="800" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z7rDoQSXtA1vAERBChvZ-42" value="1.如何准确解析日志（过滤）&lt;br&gt;2.不同的解析逻辑" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="390" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z7rDoQSXtA1vAERBChvZ-46" value="1.表结构设计" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="625" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
