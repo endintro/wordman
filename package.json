@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "iconv-lite": "^0.5.1",
-    "mammoth": "^1.4.7",
+    "mammoth": "^1.5.1",
     "word-extractor": "^0.3.0"
   }
 }
